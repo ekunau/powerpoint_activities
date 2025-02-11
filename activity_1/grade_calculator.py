@@ -1,4 +1,4 @@
-# activity 1 - grade calculator
+# activity 1 - grade calculator TEST
 
 while True:
     while True:
