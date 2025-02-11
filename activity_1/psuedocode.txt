@@ -1,0 +1,18 @@
+BEGIN grade_calculator
+    INPUT grade
+    IF 90 <= grade <= 100
+        DISPLAY "A*"
+    ELSEIF 80 <= grade <= 89
+        DISPLAY "A"
+    ELSEIF 70 <= grade <= 79
+        DISPLAY "B"
+    ELSEIF 60 <= grade <= 69
+        DISPLAY "C"
+    ELSEIF 50 <= grade <= 59
+        DISPLAY "D"
+    ELSEIF 0 <= grade <= 49
+        DISPLAY "Fail"
+    ELSE
+        Display "Invalid Grade"
+    ENDIF
+END grade_calculator
